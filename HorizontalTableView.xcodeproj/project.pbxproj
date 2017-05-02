@@ -15,6 +15,8 @@
 		CFBD733D1E7B7B37004E090E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFBD733B1E7B7B37004E090E /* LaunchScreen.storyboard */; };
 		CFBD73481E7B7B37004E090E /* HorizontalTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD73471E7B7B37004E090E /* HorizontalTableViewTests.m */; };
 		CFBD73531E7B7B37004E090E /* HorizontalTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD73521E7B7B37004E090E /* HorizontalTableViewUITests.m */; };
+		CFBD73631E7BBE36004E090E /* ScrollViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBD73611E7BBE36004E090E /* ScrollViewTableViewCell.m */; };
+		CFBD73641E7BBE36004E090E /* ScrollViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFBD73621E7BBE36004E090E /* ScrollViewTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		CFBD734E1E7B7B37004E090E /* HorizontalTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBD73521E7B7B37004E090E /* HorizontalTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalTableViewUITests.m; sourceTree = "<group>"; };
 		CFBD73541E7B7B37004E090E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFBD73601E7BBE36004E090E /* ScrollViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewTableViewCell.h; sourceTree = "<group>"; };
+		CFBD73611E7BBE36004E090E /* ScrollViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTableViewCell.m; sourceTree = "<group>"; };
+		CFBD73621E7BBE36004E090E /* ScrollViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				CFBD73311E7B7B37004E090E /* AppDelegate.m */,
 				CFBD73331E7B7B37004E090E /* ViewController.h */,
 				CFBD73341E7B7B37004E090E /* ViewController.m */,
+				CFBD73601E7BBE36004E090E /* ScrollViewTableViewCell.h */,
+				CFBD73611E7BBE36004E090E /* ScrollViewTableViewCell.m */,
+				CFBD73621E7BBE36004E090E /* ScrollViewTableViewCell.xib */,
 				CFBD73361E7B7B37004E090E /* Main.storyboard */,
 				CFBD73391E7B7B37004E090E /* Assets.xcassets */,
 				CFBD733B1E7B7B37004E090E /* LaunchScreen.storyboard */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFBD733D1E7B7B37004E090E /* LaunchScreen.storyboard in Resources */,
+				CFBD73641E7BBE36004E090E /* ScrollViewTableViewCell.xib in Resources */,
 				CFBD733A1E7B7B37004E090E /* Assets.xcassets in Resources */,
 				CFBD73381E7B7B37004E090E /* Main.storyboard in Resources */,
 			);
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFBD73351E7B7B37004E090E /* ViewController.m in Sources */,
+				CFBD73631E7BBE36004E090E /* ScrollViewTableViewCell.m in Sources */,
 				CFBD73321E7B7B37004E090E /* AppDelegate.m in Sources */,
 				CFBD732F1E7B7B37004E090E /* main.m in Sources */,
 			);
